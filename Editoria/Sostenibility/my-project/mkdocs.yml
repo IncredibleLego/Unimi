@@ -1,0 +1,10 @@
+site_name: Sostenibility
+nav:
+  - Home: index.md
+  - About: about.md
+  - Geografia Ambientale: geografia_ambientale.md
+  - Regole Ambientali: regole_ambientali.md
+  - Sviluppo Sostenibile: sviluppo_sostenibile.md
+  - Consigli: tips.md
+  - Giochi: games.md
+theme: readthedocs

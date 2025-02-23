@@ -12,6 +12,13 @@ I corsi inseriti sono di corsi che ho superato, non sono presenti materiali inco
 
 Al momento sono presenti i seguenti corsi:
 
+### Primo Anno
+
+
+### Corsi Opzionali
+
+- Editoria Digitale 📰
+
 
 
 ### Note legali
