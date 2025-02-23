@@ -18,6 +18,10 @@ Al momento sono presenti i seguenti corsi:
 - Matematica del Continuo 📈
 - Linguaggi Formali ed Automi 🔤
 
+### Secondo Anno
+
+- Programmazione II 🖥️
+
 
 ### Corsi Opzionali
 
