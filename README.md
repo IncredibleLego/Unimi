@@ -14,6 +14,8 @@ Al momento sono presenti i seguenti corsi:
 
 ### Primo Anno
 
+- Linguaggi Formali ed Automi 🔤
+
 
 ### Corsi Opzionali
 
