@@ -1,0 +1,108 @@
+=== RUN   TestComeDaEsempio
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output studente con l'output atteso ]
+
+>>> L'eseguibile da testare ( ./lessico ) deve essere stato compilato! <<<
+
+/// Argomenti a linea di comando:	[]
+
+/// File per StdInput:	piccolo.input
+
+### eseguo diff...
+
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                 [ oracolo ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
++ (memorizza)							+ (memorizza)
+? (indica n. di riga)						? (indica n. di riga)
+p (stampa tutto)						p (stampa tutto)
+aaa: [1]							aaa: [1]
+bbb: [1]							bbb: [1]
+ccc: [1]							ccc: [1]
+aaa: [1 2]							aaa: [1 2]
+bbb: [1 2]							bbb: [1 2]
+ccc: [1 2]							ccc: [1 2]
+due: [3]							due: [3]
+tre: [3]							tre: [3]
+uno: [3]							uno: [3]
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestComeDaEsempio (0.00s)
+=== RUN   TestSecondo
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output studente con l'output atteso ]
+
+>>> L'eseguibile da testare ( ./lessico ) deve essere stato compilato! <<<
+
+/// Argomenti a linea di comando:	[]
+
+/// File per StdInput:	medio.input
+
+### eseguo diff...
+
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                 [ oracolo ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
++ (memorizza)							+ (memorizza)
+? (indica n. di riga)						? (indica n. di riga)
+p (stampa tutto)						p (stampa tutto)
+stringa: ha							stringa: ha
+righe [1]							righe [1]
+befana: [1]							befana: [1]
+e: [1]								e: [1]
+fazzoletto: [1]							fazzoletto: [1]
+gonna: [1]							gonna: [1]
+ha: [1]								ha: [1]
+il: [1]								il: [1]
+la: [1 1]							la: [1 1]
+rattoppata: [1]							rattoppata: [1]
+stringa: la							stringa: la
+righe [1 1 3]							righe [1 1 3]
+stringa: befana							stringa: befana
+righe [1 3]							righe [1 3]
+stringa: ha il							stringa: ha il
+righe []							righe []
+befana: [1 3]							befana: [1 3]
+e: [1]								e: [1]
+fazzoletto: [1]							fazzoletto: [1]
+gonna: [1]							gonna: [1]
+ha: [1]								ha: [1]
+il: [1]								il: [1]
+la: [1 1 3]							la: [1 1 3]
+ma: [2]								ma: [2]
+poverina: [2]							poverina: [2]
+quest'anno: [2]							quest'anno: [2]
+raffreddata: [3]						raffreddata: [3]
+rattoppata: [1]							rattoppata: [1]
+è: [3]								è: [3]
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestSecondo (0.00s)
+=== RUN   TestFunc
+--- PASS: TestFunc (0.00s)
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+PASS
+ok  	lessico	0.006s

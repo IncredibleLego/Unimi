@@ -1,0 +1,40 @@
+=== RUN   TestEsempio
+--- PASS: TestEsempio (0.00s)
+=== RUN   TestMainEsempio
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./briscola ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+53J
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+Inserisci una mano di briscola (deve avere tre caratteri   |	mano: punti = 12
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+>>> FAIL! differisce da output atteso
+
+--- FAIL: TestMainEsempio (0.00s)
+=== RUN   TestUna
+--- PASS: TestUna (0.00s)
+=== RUN   TestMainUna
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./briscola ) sia già stato compilato! ]
+
+signal: interrupt
+FAIL	briscola	2.607s

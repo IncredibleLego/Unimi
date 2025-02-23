@@ -1,0 +1,67 @@
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+=== RUN   TestMinimalissimo
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./ordini ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[NIENTE]
+
+/// StdInput:
+100#1#.1
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+90								90
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMinimalissimo (0.00s)
+=== RUN   TestMinimale
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./ordini ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[NIENTE]
+
+/// StdInput:
+100#3#.2
+100#3#.1
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+510								510
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMinimale (0.00s)
+PASS
+ok  	ordini	0.004s

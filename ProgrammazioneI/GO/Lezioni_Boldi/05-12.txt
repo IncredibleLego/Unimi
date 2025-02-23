@@ -1,0 +1,63 @@
+Lezione 05-12 programmazione 1
+
+    I sistemi di versionamento
+        utilizzato per:
+            tenere traccia delle versioni
+            tornare a un punto x nel passato
+            confrontare due versioni diverse
+            fare branching
+                fare merge dei branch ( unire due versioni diverse di xxx ) 
+
+        sistemi di versionamento più comuni: 
+            cvs
+            svn
+            mercuria
+            git : sistema di versionamento distribuito, il più usato 
+
+        
+        come funziona (git):
+            file vengon salvati in un server repository remoto
+            repo può essere privato, condivisio o pubblico
+            contiene varie versioni del progetto
+            fare cloning:
+                fare una copia locale di un file x
+                git aggiorna alla versione repo più recente
+                se vengono effettuate delle modifiche locali possono essere aggiunte alla repo (PUSH)  <--- la tua versione diventa la nuova versione più recente
+                    se vengono effettuati PUSH contemporaneamente di file diversi git può fondere i due file, può portare problemi: 
+                        ok se sono differenti sotto aspetti diversi
+                        va corretto manualmente se le differenze tra i file vanno in conflitto
+            è possibile hostare un server git sulla propria macchiana, ma solitamente si utilizza githhub
+
+        NB in githhub: 
+            dichiarazione con lettera maiuscola : pubbliche
+            dichiarazione con lettera minuscola : privata
+                esempio: funzione con la lettera minuscola non può essere chiamata da altri
+
+        Creiamo una directory su githhub
+            Presa una directory locale, creiamo vari file
+            inseriamo in una repository git tutti i file di una pacchetto x 
+            la repository può poi essere copiata localmente attraverso : git clone indirizzoDellaRepo
+                se modifico/creo altri file localmente, la repo su server non viene aggiornata       
+                    //git status per controllare
+                    //git commit: preparati a copiare i file nel repo, commentando cosa hai fatto
+                    //git push: invio le modifiche al repo, git crea una sottodirectory con le modifiche effettuate sulla repo
+            Posso importare i pacchetti da git chiamandoli con import ("indirizzoDelPaccheto") 
+                //lista di comandi random che ha usato boldi:
+                //go mod main.go
+                //go mod tidy
+                //go mod init   //il file go.mod definisce il nome completo con cui si chiama un determinato pacchetto che andiamo a richiamare con import 
+                //git hub go.mod
+                //git commit
+
+
+        NB: Esistono client grafici per git
+
+    Programmi per xxx
+        codice del professore che non avevo voglia di copiare
+
+    
+
+    
+
+
+

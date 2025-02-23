@@ -1,0 +1,74 @@
+=== RUN   TestEsistenzaCostante
+*** questo test non compila se manca la const LEN_ALFABETO: 26
+--- PASS: TestEsistenzaCostante (0.00s)
+=== RUN   TestEsistenzaFunzione
+*** questo test non compila se manca la funzione
+--- PASS: TestEsistenzaFunzione (0.00s)
+=== RUN   TestMinimale
+--- PASS: TestMinimale (0.00s)
+=== RUN   TestMinimaleMain
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./contaLettere ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[NIENTE]
+
+/// StdInput:
+abc
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+a 1								a 1
+b 1								b 1
+c 1								c 1
+d 0								d 0
+e 0								e 0
+f 0								f 0
+g 0								g 0
+h 0								h 0
+i 0								i 0
+j 0								j 0
+k 0								k 0
+l 0								l 0
+m 0								m 0
+n 0								n 0
+o 0								o 0
+p 0								p 0
+q 0								q 0
+r 0								r 0
+s 0								s 0
+t 0								t 0
+u 0								u 0
+v 0								v 0
+w 0								w 0
+x 0								x 0
+y 0								y 0
+z 0								z 0
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMinimaleMain (0.00s)
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+PASS
+ok  	contaLettere	0.003s

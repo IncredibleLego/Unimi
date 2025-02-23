@@ -1,0 +1,40 @@
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+=== RUN   TestCreaBottiglia
+--- PASS: TestCreaBottiglia (0.00s)
+=== RUN   TestCreaBottiglieSbagliate
+--- FAIL: TestCreaBottiglieSbagliate (0.00s)
+panic: runtime error: index out of range [3] with length 3 [recovered]
+	panic: runtime error: index out of range [3] with length 3
+
+goroutine 9 [running]:
+testing.tRunner.func1.2({0x539200, 0xc00001a120})
+	/usr/lib/go-1.21/src/testing/testing.go:1545 +0x238
+testing.tRunner.func1()
+	/usr/lib/go-1.21/src/testing/testing.go:1548 +0x397
+panic({0x539200?, 0xc00001a120?})
+	/usr/lib/go-1.21/src/runtime/panic.go:914 +0x21f
+vini.CreaBottigliaDaRiga({0x549d0d?, 0x47e1ef?})
+	/home/francesco/Documenti/GO/Temi_esame/2024_01_11/vini/vini.go:43 +0x22b
+vini.TestCreaBottiglieSbagliate(0xc00012a1a0)
+	/home/francesco/Documenti/GO/Temi_esame/2024_01_11/vini/vini_test.go:110 +0x25
+testing.tRunner(0xc00012a1a0, 0x553410)
+	/usr/lib/go-1.21/src/testing/testing.go:1595 +0xff
+created by testing.(*T).Run in goroutine 1
+	/usr/lib/go-1.21/src/testing/testing.go:1648 +0x3ad
+exit status 2
+FAIL	vini	0.004s

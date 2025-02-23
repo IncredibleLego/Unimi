@@ -1,0 +1,110 @@
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+=== RUN   TestI
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./quadrante ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+27687 89
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+I quadrante							I quadrante
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestI (0.01s)
+=== RUN   TestII
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./quadrante ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+-2 0
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+II quadrante							II quadrante
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestII (0.00s)
+=== RUN   TestIII
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./quadrante ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+-12 -45
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+III quadrante							III quadrante
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestIII (0.00s)
+=== RUN   TestIV
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./quadrante ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+127 -367
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+IV quadrante							IV quadrante
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestIV (0.00s)
+PASS
+ok  	quadrante	0.012s

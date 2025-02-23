@@ -1,0 +1,167 @@
+=== RUN   Test1
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./differenze ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+3726.23 283928.6 0
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+280202							   |	280202.37
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+>>> FAIL! differisce da output atteso
+
+--- FAIL: Test1 (0.00s)
+=== RUN   Test2
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./differenze ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+2.1 2 0
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+-0							   |	-0.1
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+>>> FAIL! differisce da output atteso
+
+--- FAIL: Test2 (0.00s)
+=== RUN   Test3
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./differenze ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+8.5 10.0 0
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+2							   |	1.5
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+>>> FAIL! differisce da output atteso
+
+--- FAIL: Test3 (0.00s)
+=== RUN   Test4
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./differenze ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+78.89 10.09 5.7 0
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+-69							   |	-68.8
+-4							   |	-4.39
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+>>> FAIL! differisce da output atteso
+
+--- FAIL: Test4 (0.00s)
+=== RUN   Test5
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./differenze ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+34.9 123.7 238.3535 0
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+89							   |	88.8
+115							   |	114.6535
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+>>> FAIL! differisce da output atteso
+
+--- FAIL: Test5 (0.00s)
+=== RUN   Test6
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./differenze ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+5.5 11.0 20.2 40.2 0
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+6							   |	5.5
+9							   |	9.2
+20							   |	20.0
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+>>> FAIL! differisce da output atteso
+
+--- FAIL: Test6 (0.00s)
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+FAIL
+exit status 1
+FAIL	differenze	0.011s

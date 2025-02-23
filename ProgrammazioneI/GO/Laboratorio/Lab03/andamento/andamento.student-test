@@ -1,0 +1,138 @@
+=== RUN   Test1
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./andamento ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+2 4 7 3 9 1 5 -1
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+++-+-+								++-+-+
+somma: 31							somma: 31
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: Test1 (0.00s)
+=== RUN   Test2
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./andamento ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+1 2 3 4 5 6 7 8 -1
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
++++++++								+++++++
+somma: 36							somma: 36
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: Test2 (0.00s)
+=== RUN   Test3
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./andamento ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+1000 100 50 30 20 10 -1
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+-----								-----
+somma: 1210							somma: 1210
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: Test3 (0.00s)
+=== RUN   Test4
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./andamento ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+0 10 5 32 20 100 -1
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
++-+-+								+-+-+
+somma: 167							somma: 167
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: Test4 (0.00s)
+=== RUN   Test5
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./andamento ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+10 20 30 50 100 1000 -1
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
++++++								+++++
+somma: 1210							somma: 1210
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: Test5 (0.00s)
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+PASS
+ok  	andamento	0.007s

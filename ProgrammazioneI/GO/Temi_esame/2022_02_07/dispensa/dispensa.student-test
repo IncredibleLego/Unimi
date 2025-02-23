@@ -1,0 +1,54 @@
+=== RUN   TestMain
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./dispensa ) sia già stato compilato! ]
+/// Argomenti: [dispensa.csv zucchero miele peperoncino]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.3145412100 - DX: /tmp/atteso.2483250719 ]
+zucchero 14.177							zucchero 14.177
+miele 28.046							miele 28.046
+peperoncino 9.452						peperoncino 9.452
+
+
+--- PASS: TestMain (0.00s)
+=== RUN   TestMainCorretto
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./dispensa ) sia già stato compilato! ]
+/// Argomenti: [dispensa.csv]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.3595011437 - DX: /tmp/atteso.2315280862 ]
+file corretto							file corretto
+
+
+--- PASS: TestMainCorretto (0.00s)
+=== RUN   TestMainNonCorretto
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./dispensa ) sia già stato compilato! ]
+/// Argomenti: [dispensaErrata.csv]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.2179292012 - DX: /tmp/atteso.228836458 ]
+file non corretto						file non corretto
+
+
+--- PASS: TestMainNonCorretto (0.00s)
+=== RUN   TestAggiorna
+--- PASS: TestAggiorna (0.00s)
+=== RUN   TestAggiornaErrato
+--- PASS: TestAggiornaErrato (0.00s)
+=== RUN   TestAggiornaFileMancante
+--- PASS: TestAggiornaFileMancante (0.00s)
+=== RUN   TestRimanenza
+--- PASS: TestRimanenza (0.00s)
+=== RUN   TestLinux
+controllo sistema operativo... OK!
+--- PASS: TestLinux (0.00s)
+PASS
+ok  	dispensa	0.005s

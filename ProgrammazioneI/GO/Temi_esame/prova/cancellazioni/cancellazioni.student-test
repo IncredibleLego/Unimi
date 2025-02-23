@@ -1,0 +1,165 @@
+=== RUN   TestMainUno
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output studente con l'output atteso ]
+
+>>> L'eseguibile da testare ( ./cancellazioni ) deve essere stato compilato! <<<
+
+/// Argomenti a linea di comando:	[uno.input]
+
+/// File per StdInput:	<non era previsto input da stdin>
+
+### eseguo diff...
+
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                 [ oracolo ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+[uno due 2 tre quattro cinque 1 sei sette 5 otto nove di	[uno due 2 tre quattro cinque 1 sei sette 5 otto nove di
+[uno due cinque sette]						[uno due cinque sette]
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainUno (0.01s)
+=== RUN   TestMainDue
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output studente con l'output atteso ]
+
+>>> L'eseguibile da testare ( ./cancellazioni ) deve essere stato compilato! <<<
+
+/// Argomenti a linea di comando:	[due.input]
+
+/// File per StdInput:	<non era previsto input da stdin>
+
+### eseguo diff...
+
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                 [ oracolo ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+[uno due 2 tre quattro cinque 1 sei sette 1 otto nove di	[uno due 2 tre quattro cinque 1 sei sette 1 otto nove di
+[uno due cinque sette nove dieci]				[uno due cinque sette nove dieci]
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainDue (0.00s)
+=== RUN   TestMainTre
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output studente con l'output atteso ]
+
+>>> L'eseguibile da testare ( ./cancellazioni ) deve essere stato compilato! <<<
+
+/// Argomenti a linea di comando:	[tre.input]
+
+/// File per StdInput:	<non era previsto input da stdin>
+
+### eseguo diff...
+
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                 [ oracolo ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+[A b C d E f 2 A b C d E f A 3 b C d E f uno due 2 tre q	[A b C d E f 2 A b C d E f A 3 b C d E f uno due 2 tre q
+[A b C d E f C d E f A E f uno due cinque sette nove die	[A b C d E f C d E f A E f uno due cinque sette nove die
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainTre (0.00s)
+=== RUN   TestMainLungo
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output studente con l'output atteso ]
+
+>>> L'eseguibile da testare ( ./cancellazioni ) deve essere stato compilato! <<<
+
+/// Argomenti a linea di comando:	[lungo.input]
+
+/// File per StdInput:	<non era previsto input da stdin>
+
+### eseguo diff...
+
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                 [ oracolo ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+[uno due 2 tre quattro cinque 1 sei sette 5 otto nove di	[uno due 2 tre quattro cinque 1 sei sette 5 otto nove di
+[uno due cinque sette quattordici quindici sedici dicias	[uno due cinque sette quattordici quindici sedici dicias
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainLungo (0.00s)
+=== RUN   TestSituazioniFileNonEsistente
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output studente con l'output atteso ]
+
+>>> L'eseguibile da testare ( ./cancellazioni ) deve essere stato compilato! <<<
+
+/// Argomenti a linea di comando:	[nulla]
+
+/// File per StdInput:	<non era previsto input da stdin>
+
+### eseguo diff...
+
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                 [ oracolo ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+File non accessibile						File non accessibile
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestSituazioniFileNonEsistente (0.00s)
+=== RUN   TestSituazioniNoArgs
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output studente con l'output atteso ]
+
+>>> L'eseguibile da testare ( ./cancellazioni ) deve essere stato compilato! <<<
+
+/// Argomenti a linea di comando:	[]
+
+/// File per StdInput:	<non era previsto input da stdin>
+
+### eseguo diff...
+
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                 [ oracolo ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+Fornire 1 nome di file						Fornire 1 nome di file
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestSituazioniNoArgs (0.00s)
+=== RUN   TestFunzione
+### Questo test verifica output atteso! (presuppone che il sorgente da testare sia già stato compilato)
+[uno due 2 tre quattro cinque]
+[uno due cinque]
+--- PASS: TestFunzione (0.00s)
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+PASS
+ok  	cancellazioni	0.017s

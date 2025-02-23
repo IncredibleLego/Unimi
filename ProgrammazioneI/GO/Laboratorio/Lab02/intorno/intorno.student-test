@@ -1,0 +1,156 @@
+=== RUN   TestVicino1
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./intorno ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+0.000001 0.000005
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+molto vicino all'origine					molto vicino all'origine
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestVicino1 (0.00s)
+=== RUN   TestVicino2
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./intorno ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+0.000002 0.000003
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+molto vicino all'origine					molto vicino all'origine
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestVicino2 (0.00s)
+=== RUN   TestOrigine
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./intorno ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+0.0000 0.0000
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+molto vicino all'origine					molto vicino all'origine
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestOrigine (0.00s)
+=== RUN   TestNonVicino1
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./intorno ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+0.001 0.000001
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+non vicino all'origine						non vicino all'origine
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestNonVicino1 (0.00s)
+=== RUN   TestNonVicino2
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./intorno ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+3.6 2.7
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+non vicino all'origine						non vicino all'origine
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestNonVicino2 (0.00s)
+=== RUN   TestEdge
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./intorno ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+0.00001 0.00001
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+non vicino all'origine						non vicino all'origine
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestEdge (0.00s)
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+PASS
+ok  	intorno	0.009s

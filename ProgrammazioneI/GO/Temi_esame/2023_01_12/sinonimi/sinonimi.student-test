@@ -1,0 +1,101 @@
+=== RUN   TestCompila
+=== verifico compilazione...
+L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+=== controllo sistema operativo... OK!
+--------------------------------------
+--- PASS: TestLinux (0.00s)
+=== RUN   TestEsBreve
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./sinonimi ) sia già stato compilato! ]
+/// Argomenti: [sinonimi_es.txt es.input]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.408171313 - DX: /tmp/atteso.192941506 ]
+tra due catene non interrotte di monti[alture cime colli montagne] ... congiunge le due rive[cos   |	tra due catene non interrotte di monti[alture cime colli montagne] ... congiunge le due rive[cos
+												   >
+												   >	La costiera formata dal deposito di tre grossi torrenti scende appoggiata a due monti[alture cim
+												   >
+												   >	secondo l ossatura de due monti[alture cime colli montagne] e il lavoro dell acque 
+												   >
+												   >	il resto campi e vigne sparse di terre[regioni territori] di ville di casali 
+												   >
+												   >	Lecco la principale di quelle terre[regioni territori] e che dà nome al territorio 
+
+>>> FAIL! differisce da output atteso
+
+--- FAIL: TestEsBreve (0.00s)
+=== RUN   TestPromessi
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./sinonimi ) sia già stato compilato! ]
+/// Argomenti: [sinonimi.text promessi.input]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.1902013050 - DX: /tmp/atteso.2494751158 ]
+Quel ramo del lago[pozza specchio stagno] di Como che volge a mezzogiorno tra due catene non int   |	Quel ramo del lago[pozza specchio stagno] di Como che volge a mezzogiorno tra due catene non int
+												   >	La costiera formata dal deposito[consegna custodia] di tre grossi torrenti scende appoggiata a d
+												   >	Per un buon pezzo la costa sale con un pendìo lento e continuo poi si rompe in poggi e in vallon
+												   >	Il lembo estremo tagliato dalle foci de torrenti è quasi tutto ghiaia e ciottoloni il resto camp
+												   >	Lecco la principale di quelle terre e che dà nome al territorio[ambiente estensione] giace poco 
+
+>>> FAIL! differisce da output atteso
+
+--- FAIL: TestPromessi (0.00s)
+=== RUN   TestMainNoArgs
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./sinonimi ) sia già stato compilato! ]
+/// Argomenti: []
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.596158858 - DX: /tmp/atteso.143324627 ]
+2 file names, please											2 file names, please
+
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./sinonimi ) sia già stato compilato! ]
+/// Argomenti: [uno_solo]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.3432797095 - DX: /tmp/atteso.64992275 ]
+2 file names, please											2 file names, please
+
+
+--- PASS: TestMainNoArgs (0.00s)
+=== RUN   TestMainFileNotFound
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./sinonimi ) sia già stato compilato! ]
+/// Argomenti: [disicurononce sinonimi.text]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.939013163 - DX: /tmp/atteso.2554800546 ]
+file 1 not found											file 1 not found
+corso: cammino, percorso, tragitto deposito: custodia, consegna lago: specchio, stagno, pozza os   <
+
+>>> FAIL! differisce da output atteso
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./sinonimi ) sia già stato compilato! ]
+/// Argomenti: [sinonimi.text disicurononce]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.1264005206 - DX: /tmp/atteso.465577518 ]
+file 2 not found											file 2 not found
+
+
+--- FAIL: TestMainFileNotFound (0.00s)
+FAIL
+exit status 1
+FAIL	sinonimi	0.013s

@@ -1,0 +1,85 @@
+=== RUN   TestLinux
+controllo sistema operativo... OK!
+--- PASS: TestLinux (0.00s)
+=== RUN   TestEsempio
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./revert ) sia già stato compilato! ]
+
+
+/// Args:
+[]
+
+/// Input:
+Realizzare un programma Go  che legge da standard input
+
+
+stringhe costituite da soli caratteri ASCII in numero arbitrario e separate da un numero arbitrario di white space e 
+
+stampa               solo quelle di lunghezza pari, al contrario (il primo carattere per ultimo e l'ultimo per primo), 
+	una per riga.
+stop ho scritto stop
+
+stop
+
+
+
+/// Output:
+erazzilaeR
+nu
+oG
+ad
+dradnats
+ehgnirts
+etiutitsoc
+ad
+ilos
+ni
+oremun
+oirartibra
+etarapes
+ad
+nu
+oremun
+oirartibra
+id
+apmats
+olos
+elleuq
+id
+la
+omitlu
+omitlu'l
+
+
+/// Output atteso:
+erazzilaeR
+nu
+oG
+ad
+dradnats
+ehgnirts
+etiutitsoc
+ad
+ilos
+ni
+oremun
+oirartibra
+etarapes
+ad
+nu
+oremun
+oirartibra
+id
+apmats
+olos
+elleuq
+id
+la
+omitlu
+omitlu'l
+
+
+--- PASS: TestEsempio (0.00s)
+PASS
+ok  	revert	0.002s

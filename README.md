@@ -14,6 +14,7 @@ Al momento sono presenti i seguenti corsi:
 
 ### Primo Anno
 
+- Programmazione I 💻
 - Matematica del Continuo 📈
 - Linguaggi Formali ed Automi 🔤
 

@@ -1,0 +1,120 @@
+=== RUN   TestTrentaNovembreAprilGiugnoSettembre
+--- PASS: TestTrentaNovembreAprilGiugnoSettembre (0.00s)
+=== RUN   TestVentottoUno
+--- PASS: TestVentottoUno (0.00s)
+=== RUN   TestAltriTrentuno
+--- PASS: TestAltriTrentuno (0.00s)
+=== RUN   TestMainEsempio
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./giorni_mese ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+09-11-2022
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+il mese 11 ha 30 giorni						il mese 11 ha 30 giorni
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainEsempio (0.00s)
+=== RUN   TestMainFeb
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./giorni_mese ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+02-02-2020
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+il mese 2 ha 28 giorni						il mese 2 ha 28 giorni
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainFeb (0.00s)
+=== RUN   TestMainGiu
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./giorni_mese ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+23-06-1066
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+il mese 6 ha 30 giorni						il mese 6 ha 30 giorni
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainGiu (0.00s)
+=== RUN   TestMainDoomsday
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./giorni_mese ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+29-08-1997
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+il mese 8 ha 31 giorni						il mese 8 ha 31 giorni
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainDoomsday (0.00s)
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+PASS
+ok  	giorni_mese	0.006s

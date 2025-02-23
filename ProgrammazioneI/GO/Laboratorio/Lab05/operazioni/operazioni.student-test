@@ -1,0 +1,70 @@
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.02s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.02s)
+=== RUN   TestMinimale
+--- PASS: TestMinimale (0.00s)
+=== RUN   TestNegativi
+--- PASS: TestNegativi (0.00s)
+=== RUN   TestMain1
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./operazioni ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+57 999
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+1056 56943 -942							1056 56943 -942
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMain1 (0.07s)
+=== RUN   TestMain2
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./operazioni ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+72346823 -374673
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+71972150 -27106401213879 72721496				71972150 -27106401213879 72721496
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMain2 (0.06s)
+PASS
+ok  	operazioni	0.243s

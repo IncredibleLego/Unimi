@@ -1,0 +1,66 @@
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+=== RUN   TestMinimale
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./polinomio ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[NIENTE]
+
+/// StdInput:
+3 2 0 7 5
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+888								888
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMinimale (0.00s)
+=== RUN   TestGrosso
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./polinomio ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[NIENTE]
+
+/// StdInput:
+3 2 0 7 8 9 6
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+81879								81879
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestGrosso (0.00s)
+PASS
+ok  	polinomio	0.004s

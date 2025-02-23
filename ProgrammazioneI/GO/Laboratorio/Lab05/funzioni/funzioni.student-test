@@ -1,0 +1,152 @@
+=== RUN   TestPalindromeSingleChar
+--- PASS: TestPalindromeSingleChar (0.00s)
+=== RUN   TestPalindromeSameChar
+--- PASS: TestPalindromeSameChar (0.00s)
+=== RUN   TestNonPalindromo
+--- PASS: TestNonPalindromo (0.00s)
+=== RUN   TestHasUpperSingle
+--- PASS: TestHasUpperSingle (0.00s)
+=== RUN   TestHasUpperNormal
+--- PASS: TestHasUpperNormal (0.00s)
+=== RUN   TestCountNormal
+--- PASS: TestCountNormal (0.00s)
+=== RUN   TestCountEmpty
+--- PASS: TestCountEmpty (0.00s)
+=== RUN   TestCountOneOfEach
+--- PASS: TestCountOneOfEach (0.00s)
+=== RUN   TestFirstUpper
+--- PASS: TestFirstUpper (0.00s)
+=== RUN   TestFirstUpperNo
+--- PASS: TestFirstUpperNo (0.00s)
+=== RUN   TestLastUpper
+--- PASS: TestLastUpper (0.00s)
+=== RUN   TestMainUnaStringa
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./funzioni ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+unastringa
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+non ha maiuscole						non ha maiuscole
+prima maiuscola in posizione -1					prima maiuscola in posizione -1
+ultima maiuscola in posizione -1				ultima maiuscola in posizione -1
+cifre, lettere, altro: 0 10 0					cifre, lettere, altro: 0 10 0
+non palindroma							non palindroma
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainUnaStringa (0.00s)
+=== RUN   TestMainPalindroma
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./funzioni ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+abba
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+non ha maiuscole						non ha maiuscole
+prima maiuscola in posizione -1					prima maiuscola in posizione -1
+ultima maiuscola in posizione -1				ultima maiuscola in posizione -1
+cifre, lettere, altro: 0 4 0					cifre, lettere, altro: 0 4 0
+palindroma							palindroma
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainPalindroma (0.00s)
+=== RUN   TestMainPalindromaDogma
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./funzioni ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+DOGMAIAMGOD
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+ha maiuscole							ha maiuscole
+prima maiuscola in posizione 0					prima maiuscola in posizione 0
+ultima maiuscola in posizione 10				ultima maiuscola in posizione 10
+cifre, lettere, altro: 0 11 0					cifre, lettere, altro: 0 11 0
+palindroma							palindroma
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainPalindromaDogma (0.00s)
+=== RUN   TestMainPalindromaNumeriLettere
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./funzioni ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+321DOGMAIAMGOD123
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+ha maiuscole							ha maiuscole
+prima maiuscola in posizione 3					prima maiuscola in posizione 3
+ultima maiuscola in posizione 13				ultima maiuscola in posizione 13
+cifre, lettere, altro: 6 11 0					cifre, lettere, altro: 6 11 0
+palindroma							palindroma
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMainPalindromaNumeriLettere (0.00s)
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+PASS
+ok  	funzioni	0.007s

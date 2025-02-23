@@ -1,0 +1,23 @@
+=== RUN   TestPari
+--- PASS: TestPari (0.00s)
+=== RUN   TestRimuove
+[1 4 10 7 8 100] [1 4 7 8] [1 4 7 8]
+--- PASS: TestRimuove (0.00s)
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+PASS
+ok  	extractions	0.001s

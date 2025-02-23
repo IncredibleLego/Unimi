@@ -1,0 +1,205 @@
+=== RUN   TestCompila
+=== verifico compilazione...
+L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+=== controllo sistema operativo... OK!
+--------------------------------------
+--- PASS: TestLinux (0.00s)
+=== RUN   TestNoParm
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: []
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.1830944658 - DX: /tmp/atteso.500722805 ]
+nessun valore in ingresso										nessun valore in ingresso
+
+
+--- PASS: TestNoParm (0.01s)
+=== RUN   TestOneParm
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [2]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.3956993002 - DX: /tmp/atteso.258997905 ]
+sequenza valida												sequenza valida
+
+
+--- PASS: TestOneParm (0.00s)
+=== RUN   TestWrong1
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [3 8888 0 11 57]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.2015797330 - DX: /tmp/atteso.875417160 ]
+elemento in posizione 3 non valido									elemento in posizione 3 non valido
+
+
+--- PASS: TestWrong1 (0.00s)
+=== RUN   TestWrong2
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [1 2 3 5]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.1446769684 - DX: /tmp/atteso.398081137 ]
+elemento in posizione 4 non valido									elemento in posizione 4 non valido
+
+
+--- PASS: TestWrong2 (0.00s)
+=== RUN   TestWrong3
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [112 1 2 3 5]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.2676356994 - DX: /tmp/atteso.572985248 ]
+elemento in posizione 5 non valido									elemento in posizione 5 non valido
+
+
+--- PASS: TestWrong3 (0.00s)
+=== RUN   TestWrong4
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [5 5 10 21 40]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.3328154769 - DX: /tmp/atteso.3259982122 ]
+elemento in posizione 2 non valido									elemento in posizione 2 non valido
+
+
+--- PASS: TestWrong4 (0.00s)
+=== RUN   TestWrong5
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [3 4 6 98 101]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.880015847 - DX: /tmp/atteso.2208629340 ]
+elemento in posizione 3 non valido									elemento in posizione 3 non valido
+
+
+--- PASS: TestWrong5 (0.00s)
+=== RUN   TestWrong6
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [40 3 6 80 67]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.4269986663 - DX: /tmp/atteso.2275636216 ]
+elemento in posizione 4 non valido									elemento in posizione 4 non valido
+
+
+--- PASS: TestWrong6 (0.00s)
+=== RUN   TestOk1
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [4 5 12 11 0 77]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.2489056812 - DX: /tmp/atteso.3830588977 ]
+sequenza valida												sequenza valida
+
+
+--- PASS: TestOk1 (0.00s)
+=== RUN   TestOk2
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [3 4 5 12 11 0 77]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.2877172650 - DX: /tmp/atteso.3760886911 ]
+sequenza valida												sequenza valida
+
+
+--- PASS: TestOk2 (0.00s)
+=== RUN   TestOkEsempio
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [3 8 1 12]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.2963695228 - DX: /tmp/atteso.3008064140 ]
+sequenza valida												sequenza valida
+
+
+--- PASS: TestOkEsempio (0.00s)
+=== RUN   TestWrongType1
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [3 4728 5555y555 -12 -11 0 77]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.3880213282 - DX: /tmp/atteso.1640595130 ]
+elemento in posizione 3 non valido									elemento in posizione 3 non valido
+
+
+--- PASS: TestWrongType1 (0.00s)
+=== RUN   TestWrongType2
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [sadas3 4728 5555y555 -12 -11 0 77]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.2913856365 - DX: /tmp/atteso.1827578260 ]
+elemento in posizione 1 non valido									elemento in posizione 1 non valido
+
+
+--- PASS: TestWrongType2 (0.00s)
+=== RUN   TestWrongType3
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [3 ciao ciao]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.3422701293 - DX: /tmp/atteso.3470869175 ]
+elemento in posizione 2 non valido									elemento in posizione 2 non valido
+
+
+--- PASS: TestWrongType3 (0.00s)
+=== RUN   TestWrongType4
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./pariDispari ) sia già stato compilato! ]
+/// Argomenti: [3 ciao 3 ciao 3 ciao]
+
+/// Input:
+NIENTE
+
+/// eseguo diff... [ SX: /tmp/studente.1401417719 - DX: /tmp/atteso.792977075 ]
+elemento in posizione 2 non valido									elemento in posizione 2 non valido
+
+
+--- PASS: TestWrongType4 (0.00s)
+PASS
+ok  	pariDispari	0.027s

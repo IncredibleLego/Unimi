@@ -1,0 +1,47 @@
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... L'eseguibile è AGGIORNATO
+--- PASS: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...linux OK!
+--- PASS: TestLinux (0.00s)
+=== RUN   TestMinimalePositivo
+--- PASS: TestMinimalePositivo (0.00s)
+=== RUN   TestMinimaleNegativo
+--- PASS: TestMinimaleNegativo (0.00s)
+=== RUN   TestMinimaleMain
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./quadrati ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[1 5 9 81 7]
+
+/// StdInput:
+NIENTE
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+1								1
+9								9
+81								81
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+
+--- PASS: TestMinimaleMain (0.00s)
+PASS
+ok  	quadrati	0.003s
