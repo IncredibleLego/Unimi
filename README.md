@@ -6,14 +6,16 @@ I materiali sono stati prodotti da me o reperiti dai canali telegram o canali uf
 
 ![Unimi](./assets/Unimi.jpg)
 
+## Materiali
+
 I corsi inseriti sono di corsi che ho superato, non sono presenti materiali incompleti o di corsi ancora in completamento
 
 Al momento sono presenti i seguenti corsi:
 
 
 
+### Note legali
 
-
-Se sei il proprietario di un file contenuto in questa repository e vuoi che sia rimosso non esitare a contattarmi
+I materiali di questa cartella sono in gran parte prodotti da me, tuttavia come specificato alcuni file stati invece reperiti online. Se sei il proprietario di un file contenuto in questa repository e vuoi che sia rimosso non esitare a contattarmi
 
 *Francesco Corrado 2025*
