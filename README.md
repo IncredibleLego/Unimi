@@ -4,7 +4,7 @@ La seguente repository contiene appunti, riassunti, esercizi e file di utilità 
 
 I materiali sono stati prodotti da me o reperiti dai canali telegram o canali ufficiali dei corsi. Ogni cartella ha il relativo `README` con spiegazioni approfondite sul materiale dello specifico corso
 
-![Unimi](./assets/unimi.jpg)
+![Unimi](./assets/Unimi.jpg)
 
 I corsi inseriti sono di corsi che ho superato, non sono presenti materiali incompleti o di corsi ancora in completamento
 
