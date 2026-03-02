@@ -28,6 +28,7 @@ Al momento sono presenti i seguenti corsi:
 ### Corsi A Scelta
 
 - Editoria Digitale 📰
+- Sicurezza E Privatezza 🔒
 
 ### Vari
 
@@ -37,4 +38,4 @@ Al momento sono presenti i seguenti corsi:
 
 I materiali di questa cartella sono in gran parte prodotti da me, tuttavia come specificato alcuni file stati invece reperiti online. Se sei il proprietario di un file contenuto in questa repository e vuoi che sia rimosso non esitare a contattarmi
 
-*Francesco Corrado 2025*
+*Francesco Corrado 2026*

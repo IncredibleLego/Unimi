@@ -1,0 +1,80 @@
+DOMANDE ORALI BRUSCHI 2026
+
+- A cosa serve la crittografia? Quale problema risolve? Quali nuovi problemi sorgono dal suo uso?
+- Come funzionano le comunicazioni sicure sul web oggi?
+- Quali sono le principali contromisure per i buffer overflow?
+- Cosa è una SQL injection?
+- Mi parli di tutto quello che sa sul Web of Trust e fai un confronto con le certificate authority
+- Quali sono i tre principali modi che john the ripper usa per crackare le password?
+- Cosa è una vulnerabilità, attacco, minaccia, superficie di attacco?
+- Quali tipi di minacce conosce?
+- Cosa è l'ARP poisoning? Quale vulnerabilità usa? Cosa consente di fare? (MITM, DOS)
+- Nell'ambito di ISO27001 cosa vuol dire considerare la cybersecurity come un rischio?
+- Mi parli dei firewall
+- Un firewall a livello architetturale di rete impone una serie di scelte. Quale è la principale?
+- Spiega come funziona i meccanismi di sicurezza in unix (tutto a caso, acl, setuid, system call, cpl)
+- Cosa è un malware? Quali sono le fasi di un virus? Differenze tra virus metamorfi e polimorfi?
+- Cosa è un resident malware?
+- Come fa un antivirus a rilevare un virus polimorfo? Come fa un virus a non farsi beccare dalla macchina virtuale?
+- Quali vulnerabilità dei cookie?
+
+Orali 27/01/2026
+
+1. (30L)
+- STRIDE; come lo spiegherebbe a un amico che ha appena sviluppato un'app?
+- Come protegge un'app da spoofing? Controindicazioni multi-factor?
+- POW
+- Tutor: Pen testing; qual è la prima operazione? (port scan, cosa fa?)
+
+2. (28)
+- SUID; come lo implementa? se in un programma con suid faccio fork che uid ha il programma forkato?
+- cos'è l'autorizzazione
+- Tutor: XSS
+
+3. (Bocciato)
+- Auditing; come si chiamano in windows i file di log? problematiche dei file di log? dove vanno? chi fa l'analisi?
+- TLS
+- TOCTOU
+- Tutor: john the ripper; come funziona senza fare bruteforce?
+
+4.
+- Mitnick Attack su lavagna
+- E2E encryption; protocolli (mtproto, signal); alternativa a DH usata e perchè (i due host nelle app di messaggistica non sono per forza online contemporaneamente)
+- Tutor: TOR
+
+5. (25)
+- Cosa significa approcio risk-based? (risk management)
+- proprietà di un sistema sicuro (le 6)
+- data origin authentication
+- accountability
+- difese da bufferoverflow
+- Tutor: SQL Injection; contromisure; esempio semplice ed esempio complicato
+
+6. (26)
+- Repudiation
+- Firma digitale
+- MAC
+- Integer overflow, perchè succede, come evitarlo, esempio di codice
+- Come funziona l'autenticazione di una carta di credito
+- Tutor: come fare uno shell code con buffer overflow se vi è stack/heap non eseguibile
+
+Orali 05/02/2026
+
+- Blockchain: perchè è diffusa?
+- Metodi per evitare Buffer Overflow
+- IDS
+- Malware Cryptominer
+- nmap
+- Mac, TOCTOU, IPsec, TOR
+- CVE, Shellcode Injection, ROP, web of trust
+
+Orali 26/02/2026
+
+- Contromisure buffer overflow
+- Attacchi DOS
+- TLS, IPsec
+- Stack e Stack Frame
+- SIEM
+- Ceritificati
+- autenticazione
+- SETUID
