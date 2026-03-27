@@ -29,6 +29,7 @@ Al momento sono presenti i seguenti corsi:
 
 - Editoria Digitale 📰
 - Sicurezza E Privatezza 🔒
+- Fisica ⚛️
 
 ### Vari
 
