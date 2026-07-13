@@ -18,6 +18,7 @@ Al momento sono presenti i seguenti corsi:
 - Matematica del Continuo 📈
 - Architettura degli Elaboratori I 🔌
 - Linguaggi Formali ed Automi 🔤
+- Logica 🧠
 
 ### Secondo Anno
 

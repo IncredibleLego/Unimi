@@ -1,0 +1,9 @@
+1) L'affermazione: "per ogni naturale n, se n^2 è pari allora n è pari"
+è ottenuta per contrapposizione dalla precedente "per ogni naturale n, se n è dispari, allora n^2 è dispari".
+(Contrapposizione: A -> B è tautologicamente equivalente a (not B) -> (not A)).
+
+2) L'affermazione è vera, e segue per contrapposizione dal teorema di validità.
+(Il teorema di validità afferma che se Q è provabile al primo ordine da P1,...,Pn, 
+allora Q è conseguenza logica al primo ordine di P1,...,Pn.
+Dunque, per contrapposizione, se Q non e' conseguenza logica di P1,...,Pn, allora Q non è provabile
+da P1,...,Pn). 

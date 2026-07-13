@@ -1,0 +1,11 @@
+C(L) = {c}, F(L} = {f/1}, P(L) = {P/3}
+
+1) U = {a0,a1}
+I(c) = a0                      ;basta che sia un elemento di U
+I(f) = {(a0,a0),(a1,a0)}       ;basta che sia un insieme di coppie tale che per ogni elemento di U c'e' esattamente una coppia che ha quell'elemento come prima componente.
+I(P) = {(a0,a1,a0)}            ;basta che sia un insieme di triple, anche vuoto.
+
+2) U = {a0}
+I(c) = a0                      ; con questo U, unica interpretazione possibile.  
+I(f) = {(a0,a0)}               ; con questo U, unica interpretazione possibile.
+I(P) = {(a0,a0,a0)}            ; con questo U, l'unica altra interpretazione possibile e' I(P) = insieme vuoto.

@@ -1,0 +1,96 @@
+Es.1
+
+1.
+Che Z e' provabile in Fitch con le sole regole per i connettivi dalle
+assunzioni P,Q,R.
+
+2. Il teorema di validita' e completezza che asserisce,
+per ogni scelta di formule P1,P2,...,Pn,Q che:
+P1,P2,...,Pn |-_T Q  sse P1.P2,...,Pn |=T Q,
+in parole: Q e' provabile in Fitch dalle assunzioni P1,P2,...,Pn
+se e solo se Q e' conseguenza tautologica di P1,P2,...,Pn.
+
+3. ogni riga in I che rende vere simultaneamente P1,P2,...Pn,
+rende vera anche Q.
+L'insieme I contiene al piu' 2^m righe.
+
+4. E' proposizionalmente impossibile (o, insoddisfacibile).
+
+----------------------------------
+
+Es.2
+
+1: TW: Teta(a) e Cube(a) mai simultaneamente vere in TW,
+possibile invece a livello proposizionale che Tet(a) e Cube(a) vere
+e Large(a) falsa.
+
+2: T: Le assunzioni sono vere se e solo se Tet(a) e' vera e Tet(a) e' falsa,
+dunque, in nessuna circostanza. Quindi, qualunque sia la conclusione,
+l'argomentazione e' proposizionalmente valida.
+(Non c'e' alcuna interpretazione booleana che renda vere le assunzioni
+e falsa la conclusione).
+
+3. Nessuno dei due casi: Le assunzioni sono vere se vale
+uno tra Cube(a) e Cube(b). Dunque,
+Cube(a) vero e Cube(b) falso costituiscono un controesempio in TW,
+e dunque sono un controesempio anche nella logica proposizionale.
+
+---------------------------------------------
+
+Es.3
+
+1)
+not A -> not (not A -> A)) -> ((B and not C) -> not D)
+per contrapposizione:
+((not A -> A) -> A) -> ((B and not C) -> not D)
+per implicazione materiale:
+((not not A or A) -> A) -> ((B and not C) -> not D)
+per doppia negazione e idempotenza di or:
+(A -> A) -> ((B and not C) -> not D)
+per tautologia e definizione di implicazione:
+(B and not C) -> not D
+per contrapposizione:
+D -> not(B and not C)
+per De Morgan e doppia negazione:
+D -> (not B or C)
+per implicazione materiale:
+D -> (B -> C).
+L'ultima formula usa un solo tipo di connettivo,
+e chiaramente non puo' usarne meno occorrenze
+a meno di non essere tautologicamente equivalente alla prima formula.
+(il valore di verita' dipende da tutte e tre le lettere proposizionali,
+dunque abbiamo bisogno di almeno due occorrenze di connettivi binari).
+NB: seguendo una strada leggermente diversa potreste aver ottenuto
+B -> (D -> C): e' anch'essa una valida soluzione.
+
+2)
+((B -> not not B) -> A) and ((A or (C -> not(B -> not D))) or B)
+per doppia negazione:
+((B -> B) -> A) and ((A or (C -> not(B -> not D))) or B)
+per tautologia e definizione di implicazione:
+A  and ((A or (C -> not(B -> not D))) or B)
+per associativita' di or
+A and (A or ((C -> not(B -> not D)) or B))
+per assorbimento:
+A.
+L'ultima formula ovviamente contiene il numero minimo
+di occorrenze di connettivi fra le formule tautologicamente
+equivalenti alla prima.
+
+------------------------------------
+
+Es.4
+
+1)
+(Cube(a) and Cube(b) and Dodec(c)) and 
+((LeftOf(a,c) and LeftOf(b,c))
+->
+(Tet(d) -> not Between(d,a,b)))
+
+2)
+(Tet(b) and LeftOf(b,a)) and 
+(Smaller(a,b) 
+->
+(not Cube(a) or not Medium(a)))
+
+

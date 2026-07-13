@@ -1,0 +1,22 @@
+Dai lucidi della lezione 4
+
+Una formula è una tautologia sse è vera in tutte le interpretazioni booleane
+(cioè, in tutte le righe della sua tabella di verità).
+
+Una formula è proposizionalmente insoddisfacibile sse è falsa in tutte le 
+interpretazioni booleane (cioè, in tutte le righe della sua tabella di verità).
+
+Due formule sono tautologicamente equivalenti sse hanno lo stesso valore
+di verità in tutte le interpretazioni booleane
+(cioè, in tutte le righe delle loro tabella di verità).
+
+La formula Q (con)segue tautologicamente dalle formule P1,...,Pn
+sse
+Q è vera in ogni interpretazione booleana in cui tutte le P1,...,Pn sono vere
+(cioè Q è vera in ogni riga della tabella in cui tutte le P1,...,Pn sono vere).
+
+Equivalentemente:
+In tutte le interpretazioni booleane in cui Q è falsa, c'e' almeno una
+fra P1,...,Pn che è falsa
+(l'ultima frase è semplicemente ricavata per contrapposizione dalla precedente
+(è la "contrapposta" o "contronominale" della precedente)).

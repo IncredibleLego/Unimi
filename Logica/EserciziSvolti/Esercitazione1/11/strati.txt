@@ -1,0 +1,20 @@
+1)
+Strato 0: A,B,C
+Strato 1: not B, A -> B
+Strato 2: A and not B, C -> (A -> B)
+Strato 3: (A and not B) -> (C -> (A -> B))
+
+2)
+Strato 0: Tet(a), SameRow(a,c), assurdo, Cube(a)
+Strato 1: Tet(a) or SameRow(a,c)
+Strato 2: (Tet(a) or SameRow(a,c)) -> assurdo
+Strato 3: ((Tet(a) or SameRow(a,c)) -> assurdo) or Cube(a)
+
+Quale delle stringhe date non e' una formula?
+Cube(a and b): 
+a e b sono costanti, non formule 
+dunque, a and b non e' permesso ("and" connette due formule)
+inoltre Cube(a and b) non è permesso:
+(Cube vuole una costante (più in là nel corso generalizzeremo
+le costanti con la nozione di "termine"), mentre "a and b"
+non è nemmeno una costante.

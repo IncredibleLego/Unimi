@@ -1,0 +1,29 @@
+Dai lucidi della Lezione 7
+
+Teorema di validita':
+Per ogni scelta di formule P1,...,Pn,Q
+Se Q è provabile in Fitch dalle assunzioni P1,...,Pn 
+allora
+Q è conseguenza tautologica di P1,...,Pn.
+(Se P1,...,Pn |- Q  allora P1,...,Pn |= Q).
+
+Teorema di completezza:
+Per ogni scelta di formule P1,...,Pn,Q
+Se Q è conseguenza tautologica di P1,...,Pn
+allora
+Q è provabile in Fitch dalle assunzioni P1,...,Pn 
+(Se P1,...,Pn |= Q  allora P1,...,Pn |- Q).
+
+
+Dai lucidi della Lezione 6:
+
+Teorema di deduzione:
+Per ogni scelta di formule P1,...,Pn,Q
+Q è conseguenza tautologica di P1,...,Pn
+sse
+la formula (P1 and P2 and ... and Pn) -> Q è una tautologia.
+(In simboli P1,...,Pn |= Q  sse |= (P1 and P2 and ... and Pn) -> Q)
+
+Completare:
+L'enunciato mancante è P <-> Q
+(Teorema enunciato nella Lezione 6: P equiv. Q sse |= P <-> Q)

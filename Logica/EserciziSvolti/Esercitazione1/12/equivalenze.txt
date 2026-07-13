@@ -1,0 +1,39 @@
+
+(B and (( C or (P and not P)) -> C)) or not A
+
+	la contraddizione P and not P  equiv. assurdo
+
+(B and (( C or assurdo) -> C)) or not A
+
+	elemento neutro: C or assurdo equiv. C	
+
+(B and (C -> C)) or not A
+
+	implicazione materiale C -> C equiv. not C or C
+
+(B and (not C or C)) or not A
+
+	commutatività di or: not C or C equiv. C or not C
+
+(B and (C or not C)) or not A
+
+	terzo escluso: C or not C è una tautologia
+
+(B and True) or not A
+
+	elemento neutro (unità): B and True equiv. B
+
+B or not A
+
+	commutatività di or: B or not A equiv. not A or B
+
+not A or B
+
+	implicazione materiale: not A or B equiv. A -> B
+
+A -> B
+
+(alcuni passaggi sono così ovvi che possono essere
+saltati: es. l'uso della commutatività, o il fatto che
+C -> C si possa immediatamente dichiarare tautologia, senza usare esplicitamente
+la definizione come implicazione materiale e il terzo escluso)

@@ -1,0 +1,27 @@
+La prima argomentazione non è provabile.
+Basta infatti considerare il seguente assegnamento
+A: T, B: F, C: T, D: T, E: T.
+Esso rende vere le premesse, ma falsifica la conclusione.
+L'argomentazione non e' una valida conseguenza tautologica,
+e per il teorema di validità non puo' essere provabile.
+
+La seconda argomentazione è provabile.
+Basta infatti constatare che la premessa è vera
+solo per quegli assegnamenti tali che
+A: T, B: T, D: F.
+Per questi stessi assegnamenti anche la conclusione 
+risulta vera.
+Dunque, ogniqualvolta la premessa e' vera,
+lo è anche la conclusione. Dunque l'argomentazione
+mostra che la conclusione è conseguenza tautologica della
+premessa: per il Teorema di completezza ne esiste
+una prova in Fitch. 
+
+
+NB: Dato che siamo nella logica proposizionale,
+potevamo prendere la strada di costruire
+le tabelle di verita' per le due argomentazioni,
+e constatare dalle tabelle che la prima non corrisponde
+a una conseguenza tautologica valida, mentre la seconda sì.
+A questo punto si applicano i Teoremi di validità e completezza
+come prima.

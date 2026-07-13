@@ -1,0 +1,14 @@
+7.2.1.22540wnds:Windows 86.2SntFC1490777448094D1490777550270C1490803459150D1490803604934C1553624143703D1553624700570S168385
+; Cerchiamo di rendere vere tutte le assunzioni.
+
+; Assumiamo 4) vera. Allora o Small(b) è falsa, o Cube(b) è falsa.
+
+;Se Cube(b) vera e Small(b) falsa, allora, 2) è automaticamente vera, e 3)
+;implica che Medium(b) sia vera.
+;Dunque il mondo con un solo blocco di nome b, che è un cubo medio
+;rende vere le assunzioni e falsa la conclusione.
+
+;Analogamente, se Cube(b) falsa e Small(b) vera, allora 2) implica Dodec(b)
+;vera, mentre 3) e' automaticamente vera.
+;Dunque il mondo con un solo blocco di nome b, che e' un dodecaedro piccolo
+;rende vere le assunzioni e falsa la conclusione.Dodec(b)  |  Cube(b)Small(b)  |  Medium(b)~(Small(b)  &  Cube(b))Medium(b)  &  Dodec(b)s=120894;

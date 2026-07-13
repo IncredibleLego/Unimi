@@ -1,0 +1,6 @@
+7.2.1.22540wnds:Windows 86.2SntFC1490803727057D1490804018353S85638Tet(b) % Tet(c)Dodec(b) % Dodec(c)Cube(b) % Cube(c)Tet(a) & ~Tet(b)FrontOf(a, b) $ (FrontOf(b, c) | FrontOf(c, b))LeftOf(a, c) $ ~LeftOf(a, b)BackOf(b, a) % BackOf(c, b); 4 ci dice che Tet(a) e non Tet(b).
+; 1,2,3 ci dicono che b e c hanno la stessa forma.
+; Da 4, la premessa di 5 è vera, dunque deve esserlo anche la conclusione.
+; Dunque, Cube(b) e Cube(c), poiche' e' l'unica scelta di forma per b e c dove la conclusione di 5 vale.
+;6 ci dice che a e' il tetraedro a destra, dato che l'altro è a sinistra sia di b che di c.
+;7 ci dice che fra i due cubi, b è nella riga piu' vicina e c è nella riga seguente.s=108027;
