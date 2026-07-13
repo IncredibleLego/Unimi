@@ -33,4 +33,10 @@ Particolare attenzione è riservata all'uso effettivo della logica, a partire da
 - `KER_LOGICA.pdf`: PDF riassuntivo del corso
 - `RisposteLogica.pdf`: PDF realizzato da me con i metodi risolutivi di alcuni esercizi realizzato con l'aiuto di Claude e Gemini
 
+Inoltre, altre risorse comode da utilizzare sono le seguenti:
+
+- [Notion Appunti](https://georgiani.notion.site/Logica-67bb2a2a73a344f49e3b789cdda8c11f) Notion con appunti di teoria
+- [Soluzioni Jumaruma](https://github.com/Jumaruba/LPL-solutions) soluzioni agli esercizi LPL
+- [Soluzioni lbrame](https://github.com/lbrame/LPL-Solutions) soluzioni agli esercizi LPL
+
 *Francesco Corrado 2026*
